@@ -9,7 +9,7 @@ jobs:
     steps:
       - name:  checkout
         uses:  actions/checkout@v4
-      - name:  cache
+      - name:  Cache
         uses:  actions/cache@4.0.0
         with:
           path:  ~/.npm
